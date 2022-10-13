@@ -25,11 +25,6 @@ namespace BlockbusterLabJT
 
                 Console.WriteLine("Welcome to Blockbuster"); Console.WriteLine();
 
-               
-
-                
-
-
                 int userInput = -1;
                 Movie choice;
                 while (userInput == -1)
@@ -67,10 +62,6 @@ namespace BlockbusterLabJT
                     {
                         choice.Play();
                     }
-
-                    //
-
-
 
                     Console.WriteLine();
                     start = info.Repeat();
